@@ -1,0 +1,164 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: background-color rgb(54, 104, 104);
+   
+}
+
+
+.bloque1 {  background-color: rgb(54, 104, 104);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            width: 40vw;
+            height:20vh;
+            margin: 30px;
+
+}
+.fotoCv {  
+         border-style: solid white;
+         border-radius: 15px;
+         width: 20vw;
+         height:30vh;
+         margin: 30px;
+}
+.nombre{ font-size: 70px;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+         background-color: rgb(54, 104, 104);
+         
+}
+.profesion {font-size: 40px;
+            background-color: rgb(54, 104, 104);
+
+}
+
+.contenedor{ 
+             display: flex;
+             flex-direction: row;
+             justify-content:space-between;
+             height: 80vh;
+             width: 100vW;
+             margin: 30px;
+             padding: 30px;
+           
+             
+
+
+}
+.divIzquierda {  background-color: rgb(20, 94, 81);
+                border-radius: 30px;
+                 width: 40vw;
+                 height: 100vh;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: space-between;
+
+                 font-size: 30px;
+                 
+
+
+}
+
+
+.perfilPersonal{
+                 width: 30vw;
+                 height: 33vh;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 margin:15 px;
+                 padding:15 px;
+                 justify-content: space-evenly;
+
+            }
+.tituloPerfil{ display:flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               
+
+}
+.parrafoContacto{display: flex;
+               flex-direction: column;
+               justify-content: flex-end;
+
+}
+.contacto{ 
+            width: 30vw;
+            height: 33vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+       }
+            
+.formacion{ 
+            width: 30vw;
+            height: 33vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+        }
+.divDerecha { background-color: rgb(54, 104, 104);
+              width: 60vw;
+              height: 100vh;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: space-between;
+              justify-content: space-around;
+              border-radius: 15px;
+             
+
+            }
+.habilidades { 
+              height: 20vh;
+              display:flex;
+              flex-direction: column;
+              justify-content:space-evenly;
+              font-size: 40px;
+              background-color: rgb(54, 104, 104);
+            
+
+ }  
+ .tituloHabilidades {background-color: rgb(54, 104, 104);
+                     display:flex;
+                     flex-direction: row;
+                     justify-content: center;
+                     font-size: 35px
+
+ }
+ .parrafoHabilidades{ display:flex;
+                      flex-direction: column;
+                      justify-content: flex-end;
+                      font-size: 30px;
+                      background-color: rgb(54, 104, 104);
+                      
+
+                     
+ }
+ .experiencia{  height: 20vh;
+                height: 20vh;
+                display:flex;
+                flex-direction: column;
+                justify-content:space-evenly;
+                justify-content: flex-end;
+                font-size: 30px;
+                background-color: rgb(54, 104, 104);
+
+
+ }
+ .tituloExperciencia{  font-size: 35px;
+                       background-color: rgb(54, 104, 104);
+
+ }
+ .bloqueInfo{   
+                 height: 40vh;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+
+ }

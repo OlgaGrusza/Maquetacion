@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agencia.css">
+</head>
+<body>
+    <main>
+    <header class="header">
+        
+        <h1 class="nombre"> Nature Trip</h1>
+        <p class="descripcion">La agencia de viajes que te une con la naturaleza</p>
+    </header>
+    <section class="section">
+        <figure class="figure1">
+            <img src="https://media.istockphoto.com/photos/travel-planning-background-picture-id1309040743?b=1&k=20&m=1309040743&s=170667a&w=0&h=eyIzT1oSW2B5gPMPqgybEseIYIUrY96cxPTE_B0ewVs=">
+         </figure>
+         <figure class="figure2">
+            <img src="https://media.istockphoto.com/photos/hot-air-balloons-flying-over-the-botan-canyon-in-turkey-picture-id1297349747?b=1&k=20&m=1297349747&s=170667a&w=0&h=oH31fJty_4xWl_JQ4OIQWZKP8C6ji9Mz7L4XmEnbqRU=">
+        </figure>
+        <figure class="figure3">
+            <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+        </figure>
+        <figure class="figure4">
+            <img src="https://media.istockphoto.com/photos/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-picture-id1285301614?b=1&k=20&m=1285301614&s=170667a&w=0&h=tDEC2-p91cZiNU5C19sVhB9L08PmaH5wIijCvRDalCI=">
+        </figure>
+    </section>
+    <article class="article">
+          <div class="div1"><p class="p1"> Nos ocupamos de todo</p></div>
+          <div class="div2"><p class="p2">Elige tus aventuras</p></div>
+          <div class="div3"><p class="p3">Apaga la mente</p></div>
+          <div class="div4"><p class="p4">Disfruta de tu YO renovado</p></div>
+    </article>
+
+    <article class="article2">
+        <form class="formulario">
+            <div id="titulo" class="cabecera" >
+                <h1  class="cabeceraTitulo">Contacto</h1>
+                <h4 class="cabeceraSubtitulo">Rellena todos los campos*</h4>
+            </div>
+            <div class="input">
+                <input  onkeyup="recojaInfo()" type="text" class="input__text" id="name" name="name" placeholder="Introduce un nombre*">
+                <input  onkeyup="recojaInfo()" type="origen" class="input__text" id="origen" name="origen" placeholder="Origen*">
+                <input  onkeyup="recojaInfo()" onkeyup="printAll()"  type="destino" class="input__text" id="destino" name="destino" placeholder="Destino*">
+                <input  onkeyup="recojaInfo()" type="numeroDePersonas" class="input__text" id="numeroDePersonas" name="numeroDePersonas" placeholder="Numero de personas*">
+                <input  onkeyup="recojaInfo()" type="fecha" class="input__text" id="fecha" name="fecha" placeholder="Fecha dd/mm/aaaa*">
+            </div>
+           
+            <div class="checkbox">
+                <input type="checkbox" id="condiciones" >
+                <label for="condiciones">Aceptar terminos y condiciones</label>
+            </div>
+            <div class="contenedorBotones">
+             <button onclick= "recojaInfo()" id="btn" class="boton" type="reset" >Solicitar Información</button>
+             <button onclick= "printAll()"  id="btn" class="boton" type="reset" >Filtrar Resultados </button>
+        </div>
+        </form>
+    </article>
+
+
+</main>
+<script src="agencia.js"></script>
+
+</body>
+</html>

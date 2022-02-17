@@ -1,0 +1,561 @@
+*{  margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.header{ border: 2px solid black;
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-end;
+         align-items:flex-start;
+         height: 20vh;
+         width: 100vw;
+       
+
+}
+
+.navegacion{ border: 2px solid black;
+             display: flex;
+             flex-direction: row;
+             justify-content: flex-end;
+             justify-content: space-around;
+             justify-content: space-evenly;
+             align-items: flex-start;
+             height: 10vh;
+             width: 70vw;
+             font-size: 100px;
+            
+
+}
+.tituloInicio{ text-decoration: none;
+                font: bold 90% monospace;
+                color: white;
+}
+.tituloInicio:hover{ color: rgb(80, 218, 80); 
+
+}
+
+.tituloSobreMi{  text-decoration: none;
+                 font: bold 90% monospace;
+                 color: white;
+}
+.tituloSobreMi:hover{ color: rgb(80, 218, 80); 
+
+}
+.tituloCv{       text-decoration: none;
+                 font: bold 90% monospace;
+                 color: white;
+}
+.tituloCv:hover{ color: rgb(80, 218, 80); 
+
+}
+
+.tituloSkills{  text-decoration: none;
+                font: bold 90% monospace;
+                color: white;
+
+}
+.tituloSkills:hover{ color: rgb(80, 218, 80); 
+}
+
+.tituloProyectos{ text-decoration: none;
+                  font: bold 90% monospace;
+                  color: white;
+
+}
+.tituloProyectos:hover{ color: rgb(80, 218, 80); 
+}
+
+.tituloContacto{ text-decoration: none;
+                 font: bold 90% monospace;
+                 color: white;
+
+}
+.tituloContacto:hover{ color: rgb(80, 218, 80); 
+}
+
+.section1 { 
+            border-radius: 50px;
+            height:80vh;
+            width: 95vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 10px;
+            padding:10px;
+
+}
+.texto1{  
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+}
+.tituloNombre{ 
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                height: 40vh;
+                width: 40vw;
+                transition: 1s ;
+}
+.tituloNombre:hover{transform: scale(1.5);
+
+}
+.nombre   { color: white; 
+            font: oblique bold;
+  
+    
+            font-size:150px ;
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            font-size:180px ;
+}
+.profesion{color: rgb(209, 154, 36);
+           display:flex;
+           flex-direction: row;
+           font-size: 100px;
+           font-family: 'Times New Roman', Times, serif;
+}
+
+.iniciales {    color: white; 
+                font: bold 90% monospace;
+                color: white; 
+                font-size:100px; 
+}
+.iniciales:hover{color: rgb(80, 218, 80);
+
+}
+.parrafo1 {     color: white; 
+                font: oblique bold;
+                font-size:130px;
+}
+
+    
+
+.parrafo2 {
+            font: bold 90% monospace;
+            color: white;
+            display: flex;
+            flex-direction: row; 
+            justify-content: flex-end;
+            font-size:130px;
+
+}
+.imaginacion{   
+                text-decoration: none;
+                font: bold 90% monospace;color: white; 
+                font-size:130px;
+                transition: 1s;
+
+}
+.imaginacion:hover{ color: rgb(80, 218, 80);
+                     transform: scale(1.1);
+
+    
+
+}.resto {   color: white; 
+            font: oblique bold;
+            font-size:130px;
+
+}
+.sectionSobreMi{   
+                    height: 70vh;
+                    width: 100vw;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    justify-content: space-around;
+                    align-items: center;
+                  
+
+}
+.textoSobreMi{ 
+                height: 60vh;
+                width: 50vw;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-start;
+                margin: 50px;
+                padding: 50px;
+                 
+                
+
+}
+.parrafoSobreMi{ 
+                    color: white; 
+                    height: 40vh;
+                    width: 40vw;
+                    font: oblique bold;
+                    font-size:80px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items:center ;
+                    line-height: 150%;
+                    transition: 1s ;
+}
+.parrafoSobreMi:hover{transform: scale(1.3);
+
+}
+
+
+.imagenRedonda {    width: 1800px;
+                    height:1800px;
+                    border-radius: 1000px;
+                    border: 20px solid rgb(209, 154, 36);
+                    transition: 1s ;
+}
+.imagenRedonda:hover{transform: scale(1.2);
+    
+}
+
+
+.lineaHorizontal{ 
+                  height:1000px ;
+                  width:1px ;
+                  background-color: rgb(209, 154, 36);
+                  transition: 1s ;
+}
+.lineaHorizontal:hover{
+                        transform: scale(1.3);
+}
+.cajaCv {      
+               height: 70vh;
+               width:100vw ;
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: flex-end;
+               
+}
+.proximedia{
+               height: 30vh;
+               width:70vw ;
+               display:flex;
+               flex-direction: column;
+}
+.momentum{
+               
+                height: 30vh;
+                width:70vw ;
+                display:flex;
+                flex-direction: column;
+
+}.yodeyma{  
+            height: 30vh;
+            width:70vw ;
+            display:flex;
+            flex-direction: column;
+
+}
+.tituloAsesor{  font: oblique bold;
+                font-size:90px;
+                color: rgb(209, 154, 36);
+
+}
+.nombreProximedia{  font: oblique bold;
+                    font-size:80px;
+                    color: white;
+
+}
+.expProximedia {    font: oblique bold;
+                    font-size:70px;
+                    color: white;
+
+}
+.tituloAgente{  font: oblique bold;
+                font-size:90px;
+                color: rgb(209, 154, 36);
+}
+.nombreMomentum  {  font: oblique bold;
+                    font-size:80px;
+                    color: white;
+
+}
+.expMomentum{   font: oblique bold;
+                font-size:70px;
+                color: white;
+
+}
+.tituloSoporte{     font: oblique bold;
+                    font-size:90px;
+                    color: rgb(209, 154, 36);
+}
+.nombreYodeyma  {   font: oblique bold;
+                    font-size:80px;
+                    color: white;
+
+}
+.expYodeyma{    font: oblique bold;
+                font-size:70px;
+                color: white;
+
+}
+.cajaArticule{ 
+               display: flex;
+               flex-direction: row;
+               
+
+}
+.cajaLinea{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 20vw;
+
+}
+.lineaHorizontal2{ 
+                    height:2000px ;
+                    width:30px ;
+                    background-color: rgb(209, 154, 36);
+                    transition: 1s ;
+}
+.lineaHorizontal2:hover{
+                       transform: scale(0.5);
+}
+
+.cajaskills{ 
+         height: 50vh;
+         width: 100vw;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         justify-content: space-evenly;
+         justify-content:space-around ;
+
+
+}
+.angular{ height: 500px;
+          width: 500px;
+          transition: 1s ;
+
+}
+.angular:hover{
+                 transform: scale(1.3);
+}
+
+.js{     height: 500px;
+         width: 500px;
+         transition: 1s ;
+}
+.js:hover{
+            transform: scale(1.3);
+}
+
+
+.mongo{     height: 500px;
+            width: 500px;
+            transition: 1s ;
+}
+.mongo:hover{
+            transform: scale(1.3);
+}
+
+.mysql{      height: 500px;
+             width: 500px;
+             transition: 1s ;
+}
+.mysql:hover{
+            transform: scale(1.3);
+}
+
+
+
+.node{       height: 500px;
+             width: 500px;
+             transition: 1s ;
+}
+.node:hover{
+                transform: scale(1.3);
+}
+
+.tp{     height: 500px;
+         width: 500px;
+         transition: 1s ;
+}
+.tp:hover{
+             transform: scale(1.3);
+}
+
+
+.contenedorContacto{    
+                        height:70vh;
+                        width:100vw ;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+   
+
+}
+
+
+
+
+
+.contenedorIconos{ 
+                    height:10vh;
+                    width:90vw ;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                    
+
+
+}
+.instagram{     height: 150px;
+                width:  150px;
+
+}
+.facebook{    height: 150px;
+              width:  150px;
+
+}
+.linkedin{      height: 150px;
+                width:  150px;
+   
+
+}
+.whatsap{    height: 150px;
+             width:  150px;
+
+}
+.gmail{    height: 150px;
+            width:  150px;
+
+}
+.formulario{border:2px solid rgb(209, 154, 36);
+            height: 50vh;
+            width: 50vh;
+            border-radius: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size:70px;
+            color: white;
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+
+}
+.inputText{ font-family: 'Courier New', Courier, monospace;
+            font-size:70px;
+            color: black;
+            background-color: rgb(219, 182, 102);
+            width: 40vh;
+            border-radius: 20px;
+            display:flex;
+            flex-direction:column;
+            justify-content: space-between;
+            align-items: center;
+            
+
+}
+.boton{
+            font-family: 'Courier New', Courier, monospace;
+            font-size:70px;
+            color: black;
+            background-color: rgb(219, 182, 102);
+            width: 40vh;
+            border-radius: 20px;
+}
+.boton:hover{background-color: rgb(80, 218, 80);
+
+}
+.cabeceraTitulo{  color: rgb(209, 154, 36);
+                display:flex;
+                flex-direction:column;
+                justify-content: space-between;
+                align-items: center;
+
+}
+.cabeceraTitulo:hover{ color:rgb(80, 218, 80);
+
+}
+.cabeceraSubtitulo{     color: rgb(209, 154, 36);
+                        display:flex;
+                        flex-direction:column;
+                        justify-content: space-between;
+                        align-items: center;
+
+}
+.cabeceraSubtitulo:hover{ color:rgb(80, 218, 80);
+
+}
+.contenedorlinks{
+                    height:10vh;
+                    width:90vw ;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    justify-content: space-around;
+                    align-items: flex-end;
+                    text-decoration: none;
+                   
+
+}
+.enlanceInstagram{text-decoration: none;
+                  font-size: 100px;
+                  color: white;
+                  transition: 1s;
+
+
+}
+.enlanceInstagram:hover{  transform: scale(1.3);
+
+}
+.enlanceFacebook {text-decoration: none;
+    font-size: 100px;
+    color: white;
+    transition: 1s;
+
+
+}
+
+.enlanceFacebook:hover{  transform: scale(1.3);
+
+}
+
+.enlanceLinkedin {  text-decoration: none;
+                    font-size: 100px;
+                    color: white;
+                    transition: 1s;
+
+
+}
+.enlanceLinkedin:hover{  transform: scale(1.3);
+
+}
+
+.proyectoCaja{
+               height: 70vh;
+               width:100vw;
+               display: flex;
+               flex-direction: row;
+               justify-content: center;
+               justify-content: space-around;
+               align-items: center;
+
+}
+.linkProyecto{  text-decoration: none;
+                font-size: 300px;
+                font: white;
+                font-family: 'Courier New', Courier, monospace;
+          
+}
+.nombreProyecto{ text-decoration: none;
+                 font: white;
+
+}

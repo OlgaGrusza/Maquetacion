@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+​
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+​
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+​
+.formulario{
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+​
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 100;
+    padding: 30px 0px 15px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+    width: 300px;
+    margin-bottom: 30px;
+}
+​
+.cabecera__titulo{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 40px;
+}
+​
+.cabecera__subtitulo{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 12px;
+}
+​
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+​
+.input__text{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+​
+.input__text:focus{
+   outline: none;
+   border: 1px solid rgba(0, 0, 0, 0.8);
+}
+​
+.checkbox{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin:10px 0px 16px 0px;
+}
+​
+.boton{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 233);
+    border: none;
+    color: white;
+    transition: all 0.3s;
+}
+​
+/* .boton:hover{
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: rgb(45, 45, 161);
+} */
+​
+.boton--rojo{
+    background-color: red;
+}
+​
+​
+​
+​
+.buscador{
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+}
+​
+​
+.input__text--center{
+    text-align: center;
+}
+​
+.resultado{
+    margin-top: 30px;
+}
+​
+.simon{
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 50%;
+    background-color: red;
+}
